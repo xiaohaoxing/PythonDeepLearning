@@ -1,0 +1,69 @@
+[I 18:07:25.639 NotebookApp] Serving notebooks from local directory: /Users/haoxingxiao/academic/PythonDeepLearning
+[I 18:07:25.639 NotebookApp] The Jupyter Notebook is running at:
+[I 18:07:25.639 NotebookApp] http://localhost:8888/?token=51ffc9dc7bf4200b65861da352d2cfaa60f8f602739867fa
+[I 18:07:25.639 NotebookApp]  or http://127.0.0.1:8888/?token=51ffc9dc7bf4200b65861da352d2cfaa60f8f602739867fa
+[I 18:07:25.639 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:07:25.648 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/haoxingxiao/Library/Jupyter/runtime/nbserver-1731-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=51ffc9dc7bf4200b65861da352d2cfaa60f8f602739867fa
+     or http://127.0.0.1:8888/?token=51ffc9dc7bf4200b65861da352d2cfaa60f8f602739867fa
+[I 18:07:41.364 NotebookApp] Kernel started: 7b836a80-b1a3-401a-aa77-bae9c2c9087a
+[I 18:09:41.350 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+2020-06-14 18:11:04.757787: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-06-14 18:11:04.771332: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fe94a6fda40 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-14 18:11:04.771359: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[I 18:11:41.347 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:12:30.274 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:12:31.115 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:12:34.329 NotebookApp] Starting buffering for 7b836a80-b1a3-401a-aa77-bae9c2c9087a:109b1bcac078431285dfbb45c3592453
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 2036, in shutdown
+    h.flush()
+  File "/usr/local/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/usr/local/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/usr/local/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 18:12:34.956 NotebookApp] Kernel restarted: 7b836a80-b1a3-401a-aa77-bae9c2c9087a
+[I 18:12:35.470 NotebookApp] Restoring connection for 7b836a80-b1a3-401a-aa77-bae9c2c9087a:109b1bcac078431285dfbb45c3592453
+[I 18:12:35.471 NotebookApp] Replaying 6 buffered messages
+2020-06-14 18:14:19.168792: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-06-14 18:14:19.180860: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fcb077a20b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-14 18:14:19.180887: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[I 18:15:41.353 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:16:50.003 NotebookApp] Creating new notebook in 
+[I 18:16:51.932 NotebookApp] Kernel started: 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c
+[I 18:17:42.260 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:18:51.854 NotebookApp] Saving file at /Untitled1.ipynb
+[I 18:19:42.251 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:23:41.742 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:25:41.347 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:27:27.067 NotebookApp] Saving file at /6.2 理解循环神经网络.ipynb
+[I 18:27:27.395 NotebookApp] Starting buffering for 7b836a80-b1a3-401a-aa77-bae9c2c9087a:109b1bcac078431285dfbb45c3592453
+[I 18:28:18.228 NotebookApp] Starting buffering for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:43b2aee452a644f39856e1389ef1ef38
+[I 18:28:19.250 NotebookApp] Restoring connection for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:43b2aee452a644f39856e1389ef1ef38
+[I 23:35:01.921 NotebookApp] Starting buffering for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:43b2aee452a644f39856e1389ef1ef38
+[I 08:50:38.140 NotebookApp] Starting buffering for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:87e9b432d40f4c329ac0c55be1d5036f
+[I 08:50:40.419 NotebookApp] Restoring connection for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:87e9b432d40f4c329ac0c55be1d5036f
+[I 09:08:11.462 NotebookApp] Starting buffering for 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c:87e9b432d40f4c329ac0c55be1d5036f
+[C 11:16:48.015 NotebookApp] received signal 15, stopping
+[I 11:16:48.548 NotebookApp] Shutting down 2 kernels
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 2036, in shutdown
+    h.flush()
+  File "/usr/local/lib/python3.7/site-packages/absl/logging/__init__.py", line 891, in flush
+    self._current_handler.flush()
+  File "/usr/local/lib/python3.7/site-packages/absl/logging/__init__.py", line 785, in flush
+    self.stream.flush()
+  File "/usr/local/lib/python3.7/site-packages/ipykernel/iostream.py", line 341, in flush
+    if self.pub_thread.thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'thread'
+[I 11:16:50.130 NotebookApp] Kernel shutdown: 7b836a80-b1a3-401a-aa77-bae9c2c9087a
+[I 11:16:50.136 NotebookApp] Kernel shutdown: 7a5da6aa-9ca9-40bd-b3c5-458da6b40c5c
